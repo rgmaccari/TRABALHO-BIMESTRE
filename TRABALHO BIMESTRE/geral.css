@@ -1,0 +1,78 @@
+body{
+    background: url(./assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.crystal{
+    border: 2px solid;
+    border-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+.crystal h2{
+    background-image: linear-gradient(to bottom, rgb(156, 39, 39), rgb(168, 97, 104));
+    border: 0px;
+    border-radius: 15px;
+    
+}
+
+.ladoalado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.ladoalado ul{
+    margin-right: 20px; 
+}
+
+.ladoalado img{
+    max-width: 20%;
+    height: auto;
+}
+
+.final {
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.aesquerda {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: auto;
+    padding: 20px;
+    text-align: left;
+}
+
+.final ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+.final a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
